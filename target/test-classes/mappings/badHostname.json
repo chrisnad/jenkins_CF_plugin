@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/service_templates?filter[]=name=serviceName&expand=resources&attributes=href,service_template_catalog_id"
+    },
+    "response": {
+        "status": 404,
+        "body": "{\"error\":{\"kind\":\"bad_request\",\"message\":\"Unsupported Collection service_request specified\",\"klass\":\"ApiController::BadRequestError\"}}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

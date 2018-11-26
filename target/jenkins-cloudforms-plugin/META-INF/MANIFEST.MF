@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Built-By: CNADER
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_181
+Extension-Name: jenkins-cloudforms-plugin
+Specification-Title: This plugin allows you to order, manage and delet
+ e Cloudforms services
+Implementation-Title: jenkins-cloudforms-plugin
+Implementation-Version: 1.0.1-SNAPSHOT
+Group-Id: fr.asipsante.jenkins.cloudforms.plugin
+Short-Name: jenkins-cloudforms-plugin
+Long-Name: Cloudforms_Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0.1-SNAPSHOT (private-ef7bf553-CNADER)
+Hudson-Version: 2.11
+Jenkins-Version: 2.11
+Plugin-Dependencies: credentials:1.9.4
+Plugin-Developers: 
+

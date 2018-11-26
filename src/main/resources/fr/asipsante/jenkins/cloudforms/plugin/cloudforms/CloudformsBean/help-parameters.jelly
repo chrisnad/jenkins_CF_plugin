@@ -1,0 +1,10 @@
+<?jelly escape-by-default='true'?>
+<div>
+{
+'timeout':'15',
+'option_0_cname':'test_api_small',
+'option_0_asip_vlan':'front',
+'tag_0_asip_application':'93000000000283'
+}
+
+</div>

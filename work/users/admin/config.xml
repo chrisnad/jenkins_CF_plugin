@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<user>
+  <fullName>admin</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>RTFnH2jsj4f+Fi4u7ogaHgfNpPc3wPtm/tOzsQhFI671lWSTTf0TkHg22OQFv0V6</apiToken>
+    </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1.9.4">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>Tous</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>false</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$BkLCsEvjmUbsifWwe4/Ey.5nI2B.TPUhMIQeWp2mF035HY0vWUaY6</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1536831686451</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>

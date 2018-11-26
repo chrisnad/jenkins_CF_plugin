@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/service_templates?filter[]=name=serviceName&expand=resources&attributes=href,service_template_catalog_id"
+    },
+    "response": {
+        "status": 200,
+        "body": "{\"name\":\"service_templates\",\"count\":33,\"subcount\":1,\"resources\":[{\"href\":\"http://localhost:8090/api/service_templates/93000000000008\",\"id\":93000000000008,\"service_template_catalog_id\":93000000000003}]}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

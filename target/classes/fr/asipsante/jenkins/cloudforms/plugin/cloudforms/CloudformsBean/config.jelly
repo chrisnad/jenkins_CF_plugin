@@ -1,0 +1,31 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:c="/lib/credentials">
+
+    
+    <f:entry title="Service template name" field="serviceTemplateName">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="Service unique id" field="serviceUniqueId">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="Parameters" field="parameters">
+        <f:textarea/>
+    </f:entry>
+
+    <f:entry title="${%Credentials}" field="credentialsId">
+        <c:select />
+    </f:entry>
+    <f:entry title="Retire" field="destroy">
+        <f:checkbox/>
+    </f:entry>
+    <f:entry title="Command line" field="commandLine">
+            <f:textarea/>
+    </f:entry>
+    
+    <f:entry title="">
+          <div align="right">
+            <f:repeatableDeleteButton />
+          </div>
+    </f:entry>
+    
+</j:jelly>

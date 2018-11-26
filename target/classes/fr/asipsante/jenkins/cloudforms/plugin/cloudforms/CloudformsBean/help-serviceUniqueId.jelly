@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<div>
+Service name, unique per build. Used to extract environment variables related to the build.
+
+The environment variables are as follows:
+> [Service name]_COUNT = # of services with the name [Service name]
+> [Service name]_[N]_VM_COUNT = # of VMs of the [N]th service with the name [Service name]
+> [Service name]_[N]_VM[M]_NAME = Name of the [M]th VM of the [N]th service with the name [Service name]
+> [Service name]_[N]_VM[M]_IP_COUNT = # of IP addresses of the [M]th VM of the [N]th service with the name [Service name]
+> [Service name]_[N]_VM[M]_IP[Q] = [Q]th IP address of the [M]th VM of the [N]th service with the name [Service name]
+
+</div>

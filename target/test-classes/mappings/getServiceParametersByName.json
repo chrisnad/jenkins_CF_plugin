@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/services?filter[]=name=serviceName&expand=resources&attributes=href,id"
+    },
+    "response": {
+        "status": 200,
+        "body": "{\"name\":\"services\",\"count\":1136,\"subcount\":1,\"resources\":[{\"href\":\"http://localhost:8090/api/services/93000000001096\",\"id\":93000000001096}]}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

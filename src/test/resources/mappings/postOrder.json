@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/service_catalogs/93000000000003/service_templates"
+    },
+    "response": {
+        "status": 200,
+        "body": "{\"results\":[{\"id\":93000000004069,\"description\":\"Provisioning Service [serviceName] from [serviceName]\",\"approval_state\":\"pending_approval\",\"type\":\"ServiceTemplateProvisionRequest\",\"created_on\":\"2017-03-14T14:56:17Z\",\"updated_on\":\"2017-03-14T14:56:18Z\",\"requester_id\":93000000000012,\"requester_name\":\"UserSelfservice\",\"request_type\":\"clone_to_service\",\"request_state\":\"pending\",\"message\":\"Service_Template_Provisioning - Request Created\",\"status\":\"Ok\",\"options\":{\"dialog\":{\"tag_environment\":\"environment\"}},\"userid\":\"user\",\"source_id\":93000000000008,\"source_type\":\"ServiceTemplate\"}]}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

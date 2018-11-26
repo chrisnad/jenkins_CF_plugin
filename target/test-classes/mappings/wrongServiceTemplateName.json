@@ -1,0 +1,12 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/api/service_templates?filter[]=name=bad&expand=resources&attributes=href,service_template_catalog_id"
+    },
+    "response": {
+        "body": "{\"name\":\"service_templates\",\"count\":33,\"subcount\":0,\"resources\":[]}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

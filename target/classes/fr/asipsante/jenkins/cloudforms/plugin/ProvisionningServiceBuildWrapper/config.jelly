@@ -1,0 +1,13 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+	<f:entry title="Custom Variables" field="customEnvVars">
+        <f:textarea/>
+    </f:entry>
+	<f:entry>
+		<f:repeatableProperty field="services" minimum="1" header="Service configuration" add="Add another service">
+		</f:repeatableProperty>
+	</f:entry>
+
+</j:jelly>

@@ -1,0 +1,16 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/services/93000000001096"
+    },
+     "response": {
+        "status": 200,
+        "body": "{\"href\":\"http://localhost:8090/api/services/93000000001096\",\"id\":93000000001096,\"name\":\"serviceName\"}]}",
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
+
+
+

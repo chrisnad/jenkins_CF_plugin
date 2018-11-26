@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Group-Id: fr.asipsante.jenkins.cloudforms.plugin
+Short-Name: jenkins-cloudforms-plugin
+Long-Name: Cloudforms_Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0.1-SNAPSHOT (private-09/13/2018 11:39-CNADER)
+Hudson-Version: 2.11
+Jenkins-Version: 2.11
+Plugin-Dependencies: credentials:1.9.4
+Plugin-Developers: 
+Libraries: C:\Users\cnader\Desktop\demo-plugin\Plugin_Jenkins\trunk\sr
+ c\main\resources,C:\Users\cnader\Desktop\demo-plugin\Plugin_Jenkins\t
+ runk\target\classes,C:\Users\cnader\.m2\repository\org\mortbay\jetty\
+ jetty-util\6.1.26\jetty-util-6.1.26.jar,C:\Users\cnader\.m2\repositor
+ y\org\apache\httpcomponents\httpclient\4.5\httpclient-4.5.jar,C:\User
+ s\cnader\.m2\repository\com\github\tomakehurst\wiremock\1.57\wiremock
+ -1.57.jar,C:\Users\cnader\.m2\repository\commons-lang\commons-lang\2.
+ 6\commons-lang-2.6.jar,C:\Users\cnader\.m2\repository\com\jayway\json
+ path\json-path\0.8.1\json-path-0.8.1.jar,C:\Users\cnader\.m2\reposito
+ ry\org\skyscreamer\jsonassert\1.2.3\jsonassert-1.2.3.jar,C:\Users\cna
+ der\.m2\repository\org\mortbay\jetty\servlet-api\2.5-20081211\servlet
+ -api-2.5-20081211.jar,C:\Users\cnader\.m2\repository\net\sf\jopt-simp
+ le\jopt-simple\4.9\jopt-simple-4.9.jar,C:\Users\cnader\.m2\repository
+ \com\squareup\okio\okio\1.11.0\okio-1.11.0.jar,C:\Users\cnader\.m2\re
+ pository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar,C:\Use
+ rs\cnader\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core
+ -1.3.jar,C:\Users\cnader\.m2\repository\com\fasterxml\jackson\core\ja
+ ckson-annotations\2.6.0\jackson-annotations-2.6.0.jar,C:\Users\cnader
+ \.m2\repository\net\minidev\json-smart\1.1.1\json-smart-1.1.1.jar,C:\
+ Users\cnader\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.
+ 26.jar,C:\Users\cnader\.m2\repository\com\fasterxml\jackson\core\jack
+ son-databind\2.6.0\jackson-databind-2.6.0.jar,C:\Users\cnader\.m2\rep
+ ository\com\fasterxml\jackson\core\jackson-core\2.6.0\jackson-core-2.
+ 6.0.jar,C:\Users\cnader\.m2\repository\com\google\guava\guava\18.0\gu
+ ava-18.0.jar,C:\Users\cnader\.m2\repository\junit\junit\4.12\junit-4.
+ 12.jar,C:\Users\cnader\.m2\repository\org\json\json\20090211\json-200
+ 90211.jar,C:\Users\cnader\.m2\repository\org\apache\httpcomponents\ht
+ tpcore\4.4.1\httpcore-4.4.1.jar,C:\Users\cnader\.m2\repository\com\go
+ ogle\code\gson\gson\2.8.0\gson-2.8.0.jar,C:\Users\cnader\.m2\reposito
+ ry\com\squareup\okhttp3\okhttp\3.6.0\okhttp-3.6.0.jar,C:\Users\cnader
+ \.m2\repository\xmlunit\xmlunit\1.6\xmlunit-1.6.jar
+Resource-Path: C:\Users\cnader\Desktop\demo-plugin\Plugin_Jenkins\trun
+ k\src\main\webapp
+
